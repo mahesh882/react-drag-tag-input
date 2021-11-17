@@ -1,11 +1,11 @@
-# React tags
+# React-drag-tag-input
 
 [![MIT](https://img.shields.io/npm/l/react-drag-tag-input.svg?style=flat-square)](https://github.com/react-tags/react-tags/blob/master/LICENSE)
 [![NPM Version](https://img.shields.io/npm/v/react-drag-tag-input.svg?style=flat-square)](https://www.npmjs.com/package/react-drag-tag-input)
 [![npm downloads](https://img.shields.io/npm/dm/react-drag-tag-input.svg?style=flat-square)](https://www.npmjs.com/package/react-drag-tag-input)
 [![Build Status](https://travis-ci.com/react-tags/react-tags.svg?branch=master)](https://travis-ci.com/react-tags/react-tags)[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
-React-tags is a simple tagging component ready to drop in your projects. The component is inspired by GMail's *To* field in the compose window.
+React-drag-tag-input is a simple tagging component ready to drop in your projects. The component is inspired by GMail's *To* field in the compose window.
 
 ## Features
 - Autocomplete based on a suggestion list
@@ -13,25 +13,6 @@ React-tags is a simple tagging component ready to drop in your projects. The com
 - Reorder tags using drag and drop
 - Edit tag support
 - Optional clear all button
-
-## Why
-Started by [Prakhar Srivastav](https://github.com/prakhar1989) and later maintained by [Aakansha Doshi](https://github.com/ad1992).
-
-In Prakhar's words here is why he started it👇🏻
-
-Because I was looking for an excuse to build a standalone component and publish it in the wild? To be honest, I needed a tagging component that provided the above features for my [React-Surveyman](http://github.com/prakhar1989/react-surveyman) project. Since I was unable to find one which met my requirements (and the fact that I generally enjoy re-inventing the wheel) this is what I came up with.
-
-
-## Demo
-![img](demo.gif)
-
-Check it out [here](https://www.jinno.io/app/6?source=react-drag-tag-input)
-
-## Support
-If you like this library, you can support to help it improve:)
-
-<a href="https://www.buymeacoffee.com/aakansha" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Buy Me A Coffee" height=40></a>
-
 
 
 ## Installation
@@ -54,7 +35,7 @@ make sure you have installed the **peer dependencies** as well with below versio
 "react-dom": "17.0.2"
 
 ```
-It is, however, also available to be used separately (`dist/ReactTags.min.js`). If you prefer this method remember to include [ReactDND](https://github.com/gaearon/react-dnd) as a dependancy. Refer to the [example](https://stackblitz.com/edit/react-drag-tag-input) to see how this works.
+It is, however, also available to be used separately (`dist/ReactTags.min.js`). If you prefer this method remember to include [ReactDND](https://github.com/gaearon/react-dnd) as a dependancy.
 
 ## Usage
     
