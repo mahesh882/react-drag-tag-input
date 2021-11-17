@@ -1,6 +1,6 @@
 # react-drag-tags-input
 
-[![MIT](https://img.shields.io/npm/l/react-drag-tags-input.svg?style=flat-square)](https://github.com/react-tags/react-tags/blob/master/LICENSE)
+
 [![NPM Version](https://img.shields.io/npm/v/react-drag-tags-input.svg?style=flat-square)](https://www.npmjs.com/package/react-drag-tags-input)
 [![npm downloads](https://img.shields.io/npm/dm/react-drag-tags-input.svg?style=flat-square)](https://www.npmjs.com/package/react-drag-tags-input)
 [![Build Status](https://travis-ci.com/react-tags/react-tags.svg?branch=master)](https://travis-ci.com/react-tags/react-tags)[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
@@ -123,7 +123,7 @@ One of the dependencies of this component is the [react-dnd](https://github.com/
 ```javascript
 const ReactTags = require('react-drag-tags-input').WithOutContext;
 ```
-Otherwise, you can simply import along with the backend itself (as shown above). If you have ideas to make this API better, I'd [love to hear](https://github.com/react-tags/react-tags/issues/new).
+
 
 <a name="Options"></a>
 ## Options
@@ -550,7 +550,7 @@ This callback is if present is triggered when "clear all" button is clicked. You
 - `ReactTags__editTagInputField`
 - `ReactTags__clearAll`
 
-An example can be found in [`/example/reactTags.css`](https://github.com/react-tags/react-tags/blob/master/example/reactTags.css).
+
 
 If you need to set your own class names on the component, you may pass in
 a `classNames` prop.
@@ -588,6 +588,3 @@ The autocomplete dropdown is inspired by Lea Verou's [awesomeplete](https://gith
 
 Also thanks to the awesome contributors who've made the library far better!
 
-
-[default-suggestions-filter-logic]: https://github.com/react-tags/react-tags/blob/v4.0.1/lib/ReactTags.js#L83
-[includes-polyfill]: https://github.com/mathiasbynens/String.prototype.includes
